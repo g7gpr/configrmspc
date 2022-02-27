@@ -1,0 +1,24 @@
+@lxpanel --profile LXDE
+@pcmanfm --desktop --profile LXDE
+
+# Set display resolution then start conky
+sleep 5
+/home/pi/setres.sh
+
+
+# Run the first run/capture script
+sleep 10
+@lxterminal -e "/home/pi/Desktop/RMS_FirstRun.sh"
+
+# Wait until the time is fetched and then restart the VPN service
+sleep 5
+sudo service openvpn restart
+
+
+
+# Watchdog
+
+#/home/pi/source/RMS/Scripts/RMS_watchdog.sh &
+#/home/pi/source/RMS/Scripts/RMS_RecordWatchdog.sh &
+
+@xscreensaver -no-splash
