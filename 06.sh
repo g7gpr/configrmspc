@@ -3,7 +3,7 @@ echo "Step 6 - Install OpenCV"
 
 source ~/vRMS/bin/activate
 sudo apt-get install -y python3-opencv
-pip install opencv-python
+pip install --no-binary opencv-python opencv-python
 
 cd ~/source/RMS
 python setup.py install
