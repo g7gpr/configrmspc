@@ -7,6 +7,6 @@ sudo pip3 install virtualenv
 cd ~
 virtualenv vRMS
 source ~/vRMS/bin/activate
-
+cd ~/configrmspc
 
 

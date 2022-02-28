@@ -11,3 +11,4 @@ sudo apt-get -f install -y
 rm *
 cd ..
 rmdir ~/configurermspctmp
+cd ~/configrmspc

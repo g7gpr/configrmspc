@@ -13,5 +13,4 @@ pip install imageio
 pip install pyfits
 pip install pyqtgraph
 pip install PyQt5
-sudo ln -s /usr/lib/x86_64-linux-gnu/libxcb-util.so.0 /usr/lib/x86_64-linux-gnu/libxcb-util.so.1
-
+cd ~/configrmspc

@@ -5,6 +5,6 @@ cd ~
 mkdir source
 cd source
 git clone https://github.com/CroatianMeteorNetwork/RMS.git
-
+cd ~/configrmspc
 
 
